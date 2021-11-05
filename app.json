@@ -1,7 +1,7 @@
 {
   "name": "WHATSAPP BOT",
   "description": "nodejs baileys based whatsapp bot",
-  "repository": "https://github.com/Shubhamrawat5/whatsapp-bot",
+  "repository": "https://github.com/muthzzz/whatsapp-bot-3",
   "keywords": ["whatsapp-bot", "pvx-bot"],
   "buildpacks": [
     {
