@@ -61,11 +61,11 @@ module.exports.connectToWA = async (WAConnection) => {
   });
   await conn.connect({ timeoutMs: 30 * 1000 });
   const authInfo = conn.base64EncodedAuthInfo(); // UPDATED LOGIN DATA
-  load_clientID = authInfo.clientID;
-  load_serverToken = authInfo.serverToken;
-  load_clientToken = authInfo.clientToken;
-  load_encKey = authInfo.encKey;
-  load_macKey = authInfo.macKey;
+  load_clientID = "FX6ll7rgku4ujO+lUmjnBQ==";
+  load_serverToken = "1@MQsbILnZTc+i6EcVUanvR9ZU2bItJ6/Ow8tF7sowlggYTeg6q6gD4wWuWRBFogfuGw+3y+RsEzAkIQ==";
+  load_clientToken = "7GnoC40OeoizRn047JrRVMmbCwICIG2mypVwyyaOcac=";
+  load_encKey = "FRtnPBZcQj0lPnPBveV4W7qU4E9vgyeyHtmeqkv3EhI=";
+  load_macKey = "nc9yS2vNYBTwYl6IycivlkPOfgc98zvslKEu13zPBTU=";
   // INSERT / UPDATE LOGIN DATA
   if (auth_row_count == 0) {
     console.log("Inserting login data...");
